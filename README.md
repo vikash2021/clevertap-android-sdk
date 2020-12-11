@@ -38,6 +38,7 @@ We publish the SDK to `jcenter` and `mavenCentral` as an `AAR` file. Just declar
 ```groovy
     dependencies {      
          implementation "com.clevertap.android:clevertap-android-sdk:4.0.1"
+	 // use same version of android studio as that of SDK while installation for avoiding any extra changes in the codebase
     }
 ```
 
